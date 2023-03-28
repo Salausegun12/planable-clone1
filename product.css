@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo {
+    width: 219px;
+    height: 47px;
+  }
+  
+  header {
+    width: 1245px;
+    height: 82px;
+    margin-left: 57px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+  }
+  
+  .drop-list1 {
+    display: none;
+    position: absolute;
+    left: 300px;
+    background-color: white;
+    width: 158px;
+    z-index: 1;
+  }
+  
+  .drop-list1 ul{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid transparent;
+    width: 100px;
+    border: 2px solid;
+    border-radius: 5px;
+  }
+  
+  .drop-list1 ul li {
+    padding: 8px 5px;
+  }
+  
+  .drop-list1 ul li a{
+    font-size: 15px;
+    color: black;
+    text-align: start;
+  }
+  
+   .active:hover .drop-list1 {
+    display: block;
+  }
+  
+  .drop-list1 a:hover {
+    background-color: #4b4e5d;
+    color: white;
+  }
+  
+  .drop-list2 {
+    display: none;
+    position: absolute;
+    right: 620px;
+    background-color: white;
+    width: 158px;
+    z-index: 1;
+  }
+  
+  .drop-list2 ul{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid transparent;
+    width: 100px;
+    border: 2px solid;
+    border-radius: 5px;
+  }
+  
+  .drop-list2 ul li {
+    padding: 8px 5px;
+  }
+  
+  .drop-list2 ul li a{
+    font-size: 15px;
+    color: black;
+    text-align: start;
+  }
+  
+  .drop-list2 a:hover {
+    background-color: #4b4e5d;
+    color: white;
+  }
+  
+  .active:hover .drop-list2 {
+    display: block;
+  }
+  
+  
+  nav ul {
+    width: 736px;
+    padding-left: 40px;
+    display: flex;
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 35px;
+  }
+  
+  nav ul li a {
+    color: #666666;
+    font-size: 14px;
+    font-weight: 300;
+    text-decoration: none;
+    opacity: 0.8;
+  }
+  
+  nav ul li a:hover {
+    color: black;
+    cursor: pointer;
+  }
+  
+  span {
+    color: #3ad186;
+    font-size: 19px;
+    font-weight: 600;
+  }
+  
+  .top-right li {
+    display: inline-flex;
+    padding-right: 5px;
+    font-size: 14px;
+  }
+  
+  .top-right {
+    width: 164px;
+    display: flex;
+    border: 2px solid;
+  }
+  .top-right li a {
+    font-weight: 100;
+    text-decoration: none;
+    color: #666666;
+  }
+  
+  button {
+    background-color: #3ad186;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 10px;
+    border: #3ad186;
+  }
+  
+  button a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+  }
